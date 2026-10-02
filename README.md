@@ -1,45 +1,53 @@
-# Android Project 5 - FitApp
+# Android Project 5 - *Name of App Here*
 
-Submitted by: **Jaden Clarke**
+Submitted by: **Your Name Here**
 
-**FitApp** is a health metrics app that allows users to persistently track daily health metrics including Calories, Water intake, Sleep hours, Exercise duration, and Weight with optional photo attachments.
+**Name of your app** is a health metrics app that allows users to track ... [TODO] 
 
-Time spent: **5** hours spent in total
+Time spent: **X** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `Calories (kcal)`, `Water (oz)`, `Sleep (hrs)`, `Exercise (mins)`, `Weight (lbs)`
-- [x] **There is a "create entry" UI that prompts users to make their daily entry**
-  - Prompts users for metric selection, positive numerical input validation, notes, date/timestamp, and optional daily photo attachment.
-- [x] **New entries are saved in a database and then updated in the RecyclerView**
-  - Managed via SQLite Database (`HealthDatabaseHelper`) and displayed in Jetpack Compose's `LazyColumn` feed with color-coded metric badges and formatted dates.
-- [x] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
-  - Fully persistent local SQLite database storage across application restarts.
+- [ ] **At least one health metric is tracked (based on user input)**
+  - Chosen metric(s): `[TODO: FILL ME IN TO GET CREDIT]`
+- [ ] **There is a "create entry" UI that prompts users to make their daily entry**
+- [ ] **New entries are saved in a database and then updated in the RecyclerView**
+- [ ] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
  
 The following **optional** features are implemented:
 
-- [x] **Create a UI for tracking averages and trends in metrics**
-  - Analytics tab displaying 7-day average sleep, 7-day average daily calories, total exercise minutes, total logged entries, and goal progress bars.
-- [x] **Improve and customize the user interface through styling and coloring**
-  - Modern Material 3 design system with custom color palettes for each metric type and elevated cards.
-- [x] **Implement orientation responsivity**
-  - Adaptive layout powered by `NavigationSuiteScaffold` converting navigation bar (portrait) into navigation rail (landscape/tablet).
-- [x] **Add a daily photo feature**
-  - Image picker allowing users to attach photos to daily entries with thumbnail previews and removal options.
+- [ ] **Create a UI for tracking averages and trends in metrics**
+- [ ] **Improve and customize the user interface through styling and coloring**
+- [ ] **Implement orientation responsivity**
+- [ ] **Add a daily photo feature**
 
 The following **additional** features are implemented:
 
-- Filter chips to view entries by specific health metric (All, Calories, Water, Sleep, Exercise, Weight).
-- Real-time search bar to filter entries by notes or value.
-- Delete entry action on each log card.
-- Automatic initial sample data populator for quick testing and demoing.
+- [ ] List anything else that you can get done to improve the app functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img width="392" height="859" alt="FitApp" src="https://github.com/user-attachments/assets/a61815cb-fc5f-4e7e-ba21-f041b3f65637" />
+
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
+
+## Notes
+
+Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright 2025 Jaden Clarke
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
